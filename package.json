@@ -1,0 +1,24 @@
+{
+  "name": "iot.device.client.applepi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.device.js",
+  "scripts": {
+    "start": "node client.device.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mdcuesta/applepi.hub-client.git"
+  },
+  "author": "Michael Dela Cuesta <michael.dcuesta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdcuesta/applepi.hub-client/issues"
+  },
+  "homepage": "https://github.com/mdcuesta/applepi.hub-client#readme",
+  "dependencies": {
+    "azure-iot-device": "^1.1.9",
+    "azure-iot-device-mqtt": "^1.1.9"
+  }
+}
